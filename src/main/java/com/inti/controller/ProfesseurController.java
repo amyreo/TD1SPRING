@@ -3,11 +3,13 @@ package com.inti.controller;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.inti.Model.Professeur;
 import com.inti.service.ProfesseurService;
 import com.inti.service.ProfesseurServiceImpl;
 
+@RestController
 public class ProfesseurController {
 
 	@RequestMapping(value = "/listeprofesseurs")
