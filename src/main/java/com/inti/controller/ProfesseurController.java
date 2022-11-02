@@ -25,7 +25,7 @@ public class ProfesseurController {
 	@RequestMapping(value = "/saveprofesseur")
 	public void saveProfesseur() {
 		ProfesseurService is = new ProfesseurServiceImpl();
-		is.saveProfesseur();
+		is.saveProfesseur(); 
 	}
 
 	@RequestMapping(value = "/deleteprofesseur")
